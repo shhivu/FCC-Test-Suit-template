@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <style>
+    body{
+  background-color: 
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+}
+.nav-link {
+  display: flex;
+  margin: 20px;
+  text-align: right;
+  justify-content: center;
+}
+#list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+img {
+  height: 70px;
+}
+#video {
+  display: flex;
+  align-content: flex-end;
+}
+#body{
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: 1em auto;
+}
+@media (max-width: 600px){
+  header{
+    flex-wrap: wrap;
+  } 
+}
+</style>
+</head>
+<body id="main">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <header id="header">
+    <div >
+      <img id="header-img" src="https://1000logos.net/wp-content/uploads/2017/05/Logo-Obama.jpg" alt="company logo">
+    </div>
+    <nav id="nav-bar">
+    <div id="list">
+        <p><a class="nav-link" href="#home">Home</a></p>
+        <p><a class="nav-link" href="#price">Prices</a></p>
+        <p><a class="nav-link" href="#other">Other services</a></p>
+      </div>
+    </nav>
+  </header>
+<p> LET'S GET STARTED </p>
+<div id="body">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+ <input  name="email" id="email" type="email" placeholder="Enter your email address" required />
+    <input id="submit" type="submit" value="Get Started" class="btn" /> 
+  
+  </form>
+ 
+  <section id="home">
+    
+  </section>
+    <section id="price">
+    
+  </section>
+    <section id="other">
+    
+  </section>
+<section id="how-it-works">
+      <iframe
+        id="video"
+        height="315"
+        src=""
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+</div>
+</body>
+</html>
